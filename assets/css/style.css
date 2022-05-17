@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
 
 * {
-    margin: 0;
+  s  margin: 0;
     padding: 0;
     border: none;
 }
@@ -131,9 +131,6 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background: red;
-
-
 }
 
 #right-about {
@@ -147,6 +144,19 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
     background: green;
+    
+}
 
-     
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    clear: both;
+    margin-bottom: 50px;
+
 }
