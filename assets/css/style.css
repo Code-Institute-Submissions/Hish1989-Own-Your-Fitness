@@ -198,3 +198,31 @@ hr {
     border-radius: 50%;
 }
 
+/*Selecting the goal*/
+
+#selecting-the-goal {
+    background-image: url('../images/goal-selecting-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+#selecting-the-goal div {
+    color: #fafafa;
+    width: 33%;
+    height: 300px;
+    float: left;
+    text-align:center;
+    border: 2px solid white;
+    box-sizing: border-box;
+    
+
+}
+
+#selecting-the-goal h2 {
+    color: #fafafa;
+}
