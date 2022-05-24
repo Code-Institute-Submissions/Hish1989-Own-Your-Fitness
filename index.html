@@ -30,10 +30,13 @@
                 <h2>Own Your Fitness</h2>
                 <h3>It's Yours for the Taking</h3>
             </div>
-    
         </section>
-        <section id="club ethos">
+        
+        <section>
+        <div id="club-ethos">
             <h1>Take control over your own health and fitness</h1>
+        </div>
+            
         <div id="left-about">
             <div class="left-about-heading">
                 <h2>
@@ -71,34 +74,56 @@
             </div>
         </div>
         <div id="center-about">
-            <h2 id="welcome">Why should you join?</h2>
+            <h2 id="welcome">Why You Should Join</h2>
             <div id="circle-container">
                 <div id="circle-cover-bg"></div>
             </div>
 
         </div>
-
         </section>
     
         <section id="selecting-the-goal">
             <div>
-                <h2>Select Your Goals <i class="fa-solid fa-bullseye"></i></i></h2>
-                <h3>Weight Loss</h3>
-                <h3>Functional Fitness</h3>
-                <h3>Bulking</h3>
+                <h2>STEP 1</h2>
+                <h3>Type in your goals <i class="fa-solid fa-bullseye"></i></h3>
             </div>
             <div>
-                <h2>Select Your Current Fitness Level <i class="fa-solid fa-arrow-up-right-dots"></i></h2>
-                <h3>Beginner (Exercising 0-2 times per week at a low intensity)</h3>
-                <h3>Intermediate (Exercising 2-4 times per week at a moderate intensity)</h3>
-                <h3>Advanced (Execising 3+ times per week at a high intensity)</h3> 
+                <h2>STEP 2</h2>
+                <h3>Type in your current fitness level <i class="fa-solid fa-arrow-up-right-dots"></i></h3>   
             </div>
             <div>
-                <h2>Let us know of any exercises or food you can't do/eat or of any injuries allergies <i class="fa-solid fa-triangle-exclamation"></i></h2>
-                <h3>Exercises</h3>
-                <h3>Injuries (include specific location of injury)</h3>
-                <h3>Food</h3>
-                <h3>Allergies</h3> 
+                <h2>STEP 3</h2>
+                <h3>Let us know of any exercises or food you can't do/eat or of any injuries allergies <i class="fa-solid fa-triangle-exclamation"></i></h2> 
+            </div>
+        </section>
+        <section>
+            <div id="form-container">
+                <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+                    <h2>Sign up and complete the steps to recieve your tailored programme <i class="fa-solid fa-heart-pulse"></i></h2>
+                    
+                    <label for="fname">First Name</label>
+                    <input id="fname" class="text-input" type="text" name="first_name" required/>
+
+                    <label for="lname">Last Name</label>
+                    <input id="lname" class="text-input" type="text" name="last_name" required/>
+
+                    <label for="email">Email Adress</label>
+                    <input id="email" class="text-input" type="text" name="email_adress0" required/>
+
+                    <label for="age">Age</label>
+                    <input id="age" class="text-input" type="text" name="age" required/>
+            
+                    <label for="goal">Type in your goal (e.g weight loss)</label>
+                    <input id="goal" class="text-input" type="text" name="goal_selection" required/>
+                    
+                    <label for="level">Type in your current fitness level</label>
+                    <input id="level" class="text-input" type="text" name="level_selection" required/>
+                    
+                    <label for="concerns">Type in injuries (include location), disliked exercises, disliked food or any allergies</label>
+                    <input id="concerns" class="text-input" type="text" name="concerns" required/>
+
+                    <input class="join-button" type="submit" value="submit"/>    
+                </form>
             </div>
         </section>
         
